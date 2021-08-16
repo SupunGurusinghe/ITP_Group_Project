@@ -19,6 +19,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('fertilizer/', include('fertilizer.urls')),
+    path('SoilManagement/', include('SoilManagement.urls')),
     path('__debug__/', include(debug_toolbar.urls)),
 ]
