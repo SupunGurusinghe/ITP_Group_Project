@@ -2,7 +2,9 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
+
     <value-preview-text-wrapping value="false" />
+
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
@@ -24,6 +26,7 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
+
     <loaded-nodes>
       <connection connection-id="3a4b9ea1-9ce4-4c36-8d58-09479e79024f">
         <schema name="crop_management" object-types="table, view, procedure, function" />
@@ -35,13 +38,16 @@
     <connection id="3a4b9ea1-9ce4-4c36-8d58-09479e79024f">
       <console name="Connection" type="STANDARD" schema="mysql" session="Main" />
     </connection>
+
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
+
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="3a4b9ea1-9ce4-4c36-8d58-09479e79024f" />
   </component>
+
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
   </component>
@@ -67,6 +73,7 @@
     <recently-used-interfaces />
   </component>
   <component name="DBNavigator.Project.Settings">
+
     <connections>
       <connection id="3a4b9ea1-9ce4-4c36-8d58-09479e79024f" active="true">
         <database>
@@ -153,6 +160,7 @@
         </object-filters>
       </connection>
     </connections>
+
     <browser-settings>
       <general>
         <display-mode value="TABBED" />
