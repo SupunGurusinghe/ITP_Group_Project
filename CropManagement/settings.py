@@ -88,7 +88,7 @@ DATABASES = {
         'NAME': 'crop_management',
         'HOST': 'localhost',
         'USER': 'root',
-        'PASSWORD': '@20000222sS',
+        'PASSWORD': '',
     }
 }
 
