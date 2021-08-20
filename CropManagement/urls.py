@@ -1,4 +1,4 @@
-"""soilmanagement URL Configuration
+"""CropManagement URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.2/topics/http/urls/
@@ -19,6 +19,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('fertilizer/', include('fertilizer.urls')),
+    path('SoilManagement/', include('SoilManagement.urls')),
     path('__debug__/', include(debug_toolbar.urls)),
 ]
