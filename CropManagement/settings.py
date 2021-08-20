@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'SoilManagement',
     'debug_toolbar',
+    'raw_product',
 ]
 
 MIDDLEWARE = [
@@ -59,7 +60,6 @@ INTERNAL_IPS = [
 ]
 
 ROOT_URLCONF = 'CropManagement.urls'
-
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -88,7 +88,8 @@ DATABASES = {
         'NAME': 'crop_management',
         'HOST': 'localhost',
         'USER': 'root',
-        'PASSWORD': '@20000222sS',
+        'PASSWORD': '',
+        'PORT':'3306',
     }
 }
 
