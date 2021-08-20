@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('SoilManagement/', include('SoilManagement.urls')),
     path('__debug__/', include(debug_toolbar.urls)),
+    path('raw_product/', include('raw_product.urls')),
 ]
