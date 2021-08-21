@@ -34,9 +34,11 @@
     <connection id="3a4b9ea1-9ce4-4c36-8d58-09479e79024f">
       <console name="Connection" type="STANDARD" schema="mysql" session="Main" />
     </connection>
+
     <connection id="30c53149-bf68-4b5a-a84c-543d1d3593d5">
       <console name="Connection 1" type="STANDARD" schema="" session="Main" />
     </connection>
+
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
@@ -85,9 +87,9 @@
           <host value="localhost" />
           <port value="3306" />
           <database value="mysql" />
-          <type value="USER_PASSWORD" />
+          <type value="USER" />
           <user value="root" />
-          <deprecated-pwd value="MTIz" />
+          <deprecated-pwd value="" />
         </database>
         <properties>
           <auto-commit value="false" />
