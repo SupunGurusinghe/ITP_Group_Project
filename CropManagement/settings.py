@@ -40,13 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'SoilManagement',
     'debug_toolbar',
-<<<<<<<<< Temporary merge branch 1
+    'Seed_plant',
     'raw_product',
     'SupplierManagement',
-
-=========
-    'seed_plan_section',
->>>>>>>>> Temporary merge branch 2
 ]
 
 MIDDLEWARE = [
