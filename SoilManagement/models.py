@@ -4,7 +4,7 @@ from django.db import models
 # Component percentage data
 class FertilizerComponents(models.Model):
     # data columns with its constraints
-    component = models.CharField(max_length=255)
+    component = models.CharField(max_length=255, primary_key=True)
     component_percentage = models.DecimalField(max_digits=3, decimal_places=2)
 
 
@@ -32,7 +32,7 @@ class PlantTermDetails(models.Model):
 
     # data columns with its constraints
     plant_name = models.CharField(max_length=255)
-    plant_type = models.CharField(max_length=255, choices=PLANT_TYPE_CHOICES, default=SHORT_TERM_COVER_CROP)
+    plant_type = models.CharField(max_length=255, choices=PLANT_TYPE_CHOICES, default=LONG_TERM_COVER_CROP)
     plant_picture = models.ImageField(null=True, blank=True)
     planting_application = models.CharField(max_length=255, choices=TERM, default=APPLICATION1)
     organic = models.DecimalField(null=True, max_digits=4, decimal_places=2)
@@ -41,6 +41,7 @@ class PlantTermDetails(models.Model):
     mop = models.DecimalField(null=True, max_digits=4, decimal_places=2)
     yala_mixture = models.DecimalField(null=True, max_digits=4, decimal_places=2)
     maha_mixture = models.DecimalField(null=True, max_digits=4, decimal_places=2)
+    employee_id = models.CharField(max_length=255)
 
     # Make composite primary key
     class Meta:
@@ -54,6 +55,7 @@ class LongTermCropDetails(models.Model):
     component_type = models.ForeignKey(FertilizerComponents, on_delete=models.PROTECT)
     parts_by_weight = models.IntegerField()
     nutrient_percentage = models.DecimalField(max_digits=3, decimal_places=2)
+    employee_id = models.CharField(max_length=255)
 
     # Make composite primary key
     class Meta:
@@ -82,4 +84,5 @@ class FertilizerTest(models.Model):
     test_urea = models.DecimalField(null=True, max_digits=4, decimal_places=2)
     test_tsp = models.DecimalField(null=True, max_digits=4, decimal_places=2)
     test_mop = models.DecimalField(null=True, max_digits=4, decimal_places=2)
+    employee_id = models.CharField(max_length=255)
 

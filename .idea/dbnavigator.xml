@@ -27,7 +27,6 @@
     <loaded-nodes>
       <connection connection-id="3a4b9ea1-9ce4-4c36-8d58-09479e79024f">
         <schema name="crop_management" object-types="table, view, procedure, function" />
-        <schema name="storefront" object-types="table, view, procedure, function" />
       </connection>
     </loaded-nodes>
   </component>
@@ -84,7 +83,7 @@
           <database value="mysql" />
           <type value="USER_PASSWORD" />
           <user value="root" />
-          <deprecated-pwd value="QDIwMDAwMjIyc1M=" />
+          <deprecated-pwd value="MTIz" />
         </database>
         <properties>
           <auto-commit value="false" />
