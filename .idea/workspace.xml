@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="780c6db6-3478-46b1-9de1-e2989d8c9b41" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seed_plant/static/css/Blog-Template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seed_plant/static/css/nicepage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seed_plant/static/css/seed_plan_section.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seed_plant/static/images/default-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seed_plant/static/images/person1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seed_plant/static/images/person2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seed_plant/static/images/person3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seed_plant/static/images/slide1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seed_plant/static/images/slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seed_plant/static/images/slide3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seed_plant/static/images/slide4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seed_plant/static/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seed_plant/static/js/nicepage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seed_plant/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ITP_Group_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ITP_Group_Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CropManagement/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CropManagement/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CropManagement/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CropManagement/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seed_plant/templates/seed_plan_section.html" beforeDir="false" afterPath="$PROJECT_DIR$/Seed_plant/templates/seed_plan_section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seed_plant/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Seed_plant/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1x2s1n8vgmphnDwWxwMpcgXrtwM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Seed_plant/static/images" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\PycharmProjects\ITP_Group_Project\Seed_plant\static\images" />
+      <recent name="C:\Users\hp\PycharmProjects\ITP_Group_Project\Seed_plant\static\css" />
+      <recent name="C:\Users\hp\PycharmProjects\ITP_Group_Project\Seed_plant\templates" />
+      <recent name="C:\Users\hp\PycharmProjects\ITP_Group_Project\Seed_plant\static\js" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="780c6db6-3478-46b1-9de1-e2989d8c9b41" name="Default Changelist" comment="" />
+      <created>1629564304978</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629564304978</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
