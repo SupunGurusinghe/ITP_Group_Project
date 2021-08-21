@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'SoilManagement',
     'debug_toolbar',
     'raw_product',
+    'SupplierManagement',
+
 ]
 
 MIDDLEWARE = [
