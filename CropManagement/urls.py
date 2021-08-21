@@ -16,9 +16,11 @@ Including another URLconf
 import debug_toolbar
 from django.contrib import admin
 from django.urls import path, include
+from SoilManagement.admin import soil_site
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('soil_admin/', soil_site.urls),
     path('SoilManagement/', include('SoilManagement.urls')),
     path('__debug__/', include(debug_toolbar.urls)),
     path('raw_product/', include('raw_product.urls')),
