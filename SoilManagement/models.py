@@ -82,4 +82,3 @@ class FertilizerTest(models.Model):
     test_urea = models.DecimalField(null=True, max_digits=4, decimal_places=2)
     test_tsp = models.DecimalField(null=True, max_digits=4, decimal_places=2)
     test_mop = models.DecimalField(null=True, max_digits=4, decimal_places=2)
-
