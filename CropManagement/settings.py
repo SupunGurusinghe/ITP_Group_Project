@@ -40,9 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'SoilManagement',
     'debug_toolbar',
+    'seed_plan_section',
     'raw_product',
     'SupplierManagement',
-
 ]
 
 MIDDLEWARE = [
